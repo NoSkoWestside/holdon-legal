@@ -85,6 +85,7 @@ climbing and hangboard training app developed by an individual developer ("we", 
 <tr><td>Precise location (GPS)</td><td>Only while you actively use the "Tour" GPS-tracking feature</td><td>Recording the route, distance, elevation and duration of a climbing tour you choose to track</td></tr>
 <tr><td>Photos</td><td>Only if you attach area photos or a profile photo</td><td>Displayed back to you in the Logbook / Profile</td></tr>
 <tr><td>Training data</td><td>Whenever you log a session</td><td>Core app functionality (diary, presets, workout templates, training plans)</td></tr>
+<tr><td>Crash reports (diagnostics)</td><td>Only if the app crashes or hits an unexpected error</td><td>Finding and fixing bugs</td></tr>
 </table>
 
 <p>HoldOn can also be used entirely without an account ("Continue without account"). In that case all data stays
@@ -98,6 +99,10 @@ Security), so other users cannot see your training data, photos, or GPS tracks.<
 
 <p>Map tiles for the GPS tour map are provided by <strong>Mapbox</strong>. When a map is displayed, the coordinates
 needed to render that map are sent to Mapbox; Mapbox does not receive your account information.</p>
+
+<p>If the app crashes, a crash report is sent to <strong>Sentry</strong> (Functional Software, Inc.; data stored in
+the EU, Frankfurt). It contains the technical error, device model, operating-system and app version — no name,
+email address, IP address, training data or location. Crash reports are used only to fix bugs.</p>
 
 <p>We do not use advertising or analytics SDKs, and we do not sell or share your data with any third party for
 marketing purposes.</p>
@@ -148,6 +153,7 @@ kannst. HoldOn ist eine Klettertraining- und Hangboard-App eines Einzelentwickle
 <tr><td>Präziser Standort (GPS)</td><td>Nur während aktiver Nutzung der "Tour"-Funktion</td><td>Aufzeichnung von Route, Distanz, Höhenmetern und Dauer einer von dir gestarteten Tour</td></tr>
 <tr><td>Fotos</td><td>Nur wenn du Gebiets- oder Profilfotos hinzufügst</td><td>Anzeige im Logbuch / Profil</td></tr>
 <tr><td>Trainingsdaten</td><td>Bei jeder geloggten Session</td><td>Kernfunktion der App (Diary, Presets, Workout-Vorlagen, Trainingspläne)</td></tr>
+<tr><td>Absturzberichte (Diagnose)</td><td>Nur wenn die App abstürzt oder ein unerwarteter Fehler auftritt</td><td>Fehler finden und beheben</td></tr>
 </table>
 
 <p>HoldOn kann vollständig ohne Account genutzt werden ("Ohne Account fortfahren"). In diesem Fall verbleiben alle
@@ -162,6 +168,11 @@ GPS-Tracks nicht einsehen können.</p>
 
 <p>Kartenkacheln für die GPS-Tourenkarte stammen von <strong>Mapbox</strong>. Beim Anzeigen einer Karte werden die
 dafür nötigen Koordinaten an Mapbox übertragen; Mapbox erhält keine Account-Informationen.</p>
+
+<p>Stürzt die App ab, wird ein Absturzbericht an <strong>Sentry</strong> (Functional Software, Inc.; Speicherung
+in der EU, Frankfurt) gesendet. Er enthält den technischen Fehler, Gerätemodell, Betriebssystem- und App-Version —
+keinen Namen, keine E-Mail-Adresse, keine IP-Adresse, keine Trainingsdaten und keinen Standort. Absturzberichte
+werden ausschließlich zur Fehlerbehebung genutzt.</p>
 
 <p>Wir nutzen keine Werbe- oder Analyse-SDKs und verkaufen oder teilen deine Daten nicht mit Dritten zu
 Marketingzwecken.</p>
